@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".MainActivity">
+
+    <ImageView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_weight="1"
+        android:src="@drawable/image1"
+        android:id="@+id/imge"/>
+
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="angle de depart ..."
+        android:textSize="30sp"
+        android:inputType="numberDecimal"
+        android:layout_margin="10dp"
+        android:background="#0288D1"
+        android:textColorHint="#fff"
+        android:textColor="#fff"
+        android:gravity="center"
+        android:id="@+id/angledepart"/>
+
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="angle de depart ..."
+        android:layout_margin="10dp"
+        android:gravity="center"
+        android:textColor="#fff"
+        android:textColorHint="#fff"
+        android:background="#0288D1"
+        android:textSize="30sp"
+        android:inputType="numberDecimal"
+        android:id="@+id/anglearrivee"/>
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Start animation"
+        android:layout_margin="10dp"
+        android:textSize="20sp"
+        android:layout_gravity="center"
+        android:onClick="animer"/>
+
+</LinearLayout>
